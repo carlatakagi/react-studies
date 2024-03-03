@@ -4,11 +4,9 @@ type Props = {
 
 function Button({ text }: Props) {
   return (
-    <div>
-      <button type="button">
-        {text}
-      </button>
-    </div>
+    <button type="button">
+      {text}
+    </button>
   )
 }
 
