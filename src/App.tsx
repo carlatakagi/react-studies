@@ -1,6 +1,11 @@
+import Button from "./components/Button";
+
 function App() {
   return (
-    <h1>hello guys</h1>
+    <div>
+      <h1>hello guys</h1>
+      <Button text="click here" />
+    </div>
   );
 }
 
